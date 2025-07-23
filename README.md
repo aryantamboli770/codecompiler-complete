@@ -12,12 +12,7 @@ An online code compiler built with React, Docker, and Judge0 API that supports m
 
 ---
 
-## 📢 Quick Access  
-🔗 Pull the Docker image:
 
-```bash
-docker run aryantamboli/code-compiler:latest
-```
 
 🔗 Check out the live project: [Live Demo](#) *(replace after deployment)*
 
