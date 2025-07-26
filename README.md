@@ -14,7 +14,7 @@ An online code compiler built with React, Docker, and Judge0 API that supports m
 
 
 
-🔗 Check out the live project: [[Live Demo](https://codecompiler-complete.vercel.app/)](#) 
+🔗 Check out the live project: [[Live Demo](https://codecompiler-complete.vercel.app/)]
 
 ---
 
