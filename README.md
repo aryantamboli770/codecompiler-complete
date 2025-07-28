@@ -1,89 +1,103 @@
-# 🚀 Online Code Compiler  
-An online code compiler built with React, Docker, and Judge0 API that supports multiple programming languages including C++, Java, JavaScript, and Python. Run your code instantly in a web-based environment! ⚡
+# 🚀 Online Code Compiler
+
+Welcome to the **Multi-Language Online Code Execution Environment** developed by **Aryan Tamboli**. This platform supports live code execution for multiple languages including **Python, JavaScript, Java, and C++**. It ensures secure, real-time execution using **Docker containers**.
 
 ---
 
-## 🌟 Features  
-✅ Supports Multiple Languages – Compile and run C++, Java, JavaScript, and Python.  
-✅ Real-Time Code Execution – Uses Judge0 API to execute code instantly.  
-✅ User-Friendly UI – Simple and intuitive design for seamless coding.  
-✅ Fast & Scalable – Built with React and Docker for smooth performance.  
-✅ Secure Execution – Code runs in an isolated sandbox environment.  
+## 🌟 Features
+
+- 🔹 Supports multiple languages: **Python, JavaScript, Java, and C++**
+- 🔹 Secure execution via **isolated Docker containers**
+- 🔹 Easy to configure using **Docker Compose**
+- 🔹 Auto-compiles and runs code instantly
+- 🔹 Real-time file mounting for better performance
 
 ---
 
+## 🛠️ Setup & Usage
 
+### 1️⃣ Prerequisites
 
-🔗 Check out the live project: [[Live Demo](https://codecompiler-complete.vercel.app/)]
+- Install [Docker](https://www.docker.com/)
+- Install [Docker Compose](https://docs.docker.com/compose/install/)
+- Ensure Docker daemon is running
 
 ---
 
-## 🛠️ Installation & Setup  
+### 2️⃣ Clone the Repository
 
-### 1️⃣ Clone the Repository  
 ```bash
-git clone https://github.com/aryantamboli770/codecompiler-complete.git  
-cd codecompiler-complete
+git clone https://github.com/aryantamboli770/aryantamboli770.git
+cd aryantamboli770
 ```
 
-### 2️⃣ Install Dependencies  
+---
+
+### 3️⃣ Run Docker Containers
+
 ```bash
+docker-compose up --build
+```
+
+Check if containers are running:
+
+```bash
+docker ps
+```
+
+---
+
+### 4️⃣ Backend Setup
+
+```bash
+cd backend
 npm install
-```
-
-### 3️⃣ Add Your Judge0 API Key  
-In `CodeCompiler.jsx` file, replace Judge0 API Key:
-```js
-"X-RapidAPI-Key": "your_api_key_here"
-```
-
-### 4️⃣ Run the Project  
-```bash
 npm run dev
 ```
 
-The app will be live at:  
-`http://localhost:5173` 🚀
+---
+
+### 5️⃣ Frontend Setup
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+Visit the app at: [http://localhost:5174](http://localhost:5174) 🚀
 
 ---
 
-## 📌 How to Use?  
-- Select a programming language.  
-- Write or paste your code in the editor.  
-- Click "Run" to execute the code.  
-- View the output instantly!
+## 🤝 Contributing
+
+Want to contribute and make it better?
+
+1. **Fork** this repository.
+
+2. **Clone** your fork:
+   ```bash
+   git clone https://github.com/your-username/aryantamboli770.git
+   ```
+
+3. **Create a new branch**:
+   ```bash
+   git checkout -b my-feature
+   ```
+
+4. **Commit your changes**:
+   ```bash
+   git commit -m "Added new feature"
+   ```
+
+5. **Push to GitHub**:
+   ```bash
+   git push origin my-feature
+   ```
+
+6. **Create a Pull Request** – I’ll review it ASAP!
 
 ---
 
-## 💡 Technologies Used  
-- Frontend: React, CSS  
-- API: Judge0 API  
-- Deployment: Docker, Netlify
+⭐ **Star this repository** if you found it helpful!  
 
----
-
-## 🤝 Contributing  
-Want to improve this project? Follow these steps:
-
-- Fork the repository.  
-- Clone it locally:  
-```bash
-git clone https://github.com/aryantamboli770/codecompiler-complete.git
-```
-- Create a new branch:  
-```bash
-git checkout -b feature-branch
-```
-- Make your changes & commit:  
-```bash
-git commit -m "Added new feature"
-```
-- Push changes:  
-```bash
-git push origin feature-branch
-```
-- Open a Pull Request on GitHub.
-
----
-
-## 🔥 Star this repo ⭐ if you like this project! 🚀
